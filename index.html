@@ -12,46 +12,107 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/lib/all.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/3dba458130.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- ヘッダー -->
     <header class="header">
-      <div class="header-wrapper">
-        <p>⚡︎</p>
-        <button>Contact</button>
+      <div class="header_wrapper">
+        <p class="header_wrapper_icon">
+          <i class="fa-solid fa-bolt-lightning"></i>
+        </p>
+        <button class="header_wrapper_button">Contact</button>
       </div>
     </header>
 
-    <main>
+    <main class="bolt_theme">
       <!-- Bolt Theme -->
-      <div>
-        <div></div>
+      <div class="theme_wrapper">
+        <h1 class="theme_wrapper_title">Bolt Theme</h1>
+        <h2 class="theme_wrapper_subtitle">FREE BOOTSTRAP THEME</h2>
       </div>
 
       <!-- WHAT WE CAN DO -->
-      <section>
-        <div></div>
+      <section class="what_we_can_do">
+        <div class="contents_wrapper">
+          <img src="/img/iphone.png" alt="" class="phone_img" />
+          <div class="text_wrapper">
+            <h2 class="text_wrapper_title">WHAT WE CAN DO?</h2>
+            <p class="text_wrapper_contents">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </div>
       </section>
 
       <!-- OUR LATEST WORK -->
-      <article>
-        <div></div>
+      <article class="works">
+        <h2 class="works_title">OUR LATEST WORK</h2>
+        <div class="works_img_wrapper">
+          <img src="/img/01.jpg" alt="" class="works_img" />
+          <img src="/img/02.jpg" alt="" class="works_img" />
+          <img src="/img/03.jpg" alt="" class="works_img" />
+          <img src="/img/04.jpg" alt="" class="works_img" />
+          <img src="/img/05.jpg" alt="" class="works_img" />
+          <img src="/img/06.jpg" alt="" class="works_img" />
+        </div>
+        <div class="works_text_button_wrapper">
+          <p class="works_text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever.
+          </p>
+          <button class="works_button_email">Email Me!</button>
+        </div>
       </article>
 
       <!-- OUR SKILLS -->
-      <section>
-        <div></div>
+      <section class="skills">
+        <div class="skills_wrapper">
+          <h2 class="skills_title">OUR SKILLS</h2>
+          <ul class="skills_contents_wrapper">
+            <li class="skills_contents">
+              <img src="img/circle_01.png" alt="" class="skills_img" />
+              <p class="skills_name">JavaScript</p>
+            </li>
+            <li class="skills_contents">
+              <img src="img/circle_02.png" alt="" class="skills_img" />
+              <p class="skills_name">Bootstrap</p>
+            </li>
+            <li class="skills_contents">
+              <img src="img/circle_03.png" alt="" class="skills_img" />
+              <p class="skills_name">WordPress</p>
+            </li>
+            <li class="skills_contents">
+              <img src="img/circle_04.png" alt="" class="skills_img" />
+              <p class="skills_name">Photoshop</p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- SNS -->
-      <nav>
-        <div></div>
+      <nav class="sns">
+        <div class="sns_list">
+          <i class="fa-brands fa-facebook-f sns_icon"></i>
+          <i class="fa-brands fa-dribbble sns_icon"></i>
+          <i class="fa-brands fa-twitter sns_icon"></i>
+          <i class="fa-solid fa-envelope sns_icon"></i>
+        </div>
       </nav>
     </main>
 
     <!-- フッター -->
-    <footer>
-      <div></div>
+    <footer class="footer">
+      <p class="footer_text">
+        Crafted with<i class="fa-solid fa-heart"></i>by Black Tie.co.
+      </p>
     </footer>
   </body>
 </html>

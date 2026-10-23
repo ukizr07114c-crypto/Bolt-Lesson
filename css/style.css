@@ -1,0 +1,235 @@
+/* Header */
+.header {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header_wrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.header_wrapper_icon {
+  font-size: 40px;
+  color: #333;
+}
+
+.header_wrapper_button {
+  font-size: 12px;
+  padding: 14px 12px;
+  color: #fff;
+  background-color: #74cfae;
+  border: none;
+  transition: color 300ms;
+}
+
+.header_wrapper_button:hover {
+  color: #333;
+}
+
+/* THEME */
+.bolt_theme {
+  background-color: #f2f2f2;
+}
+
+.theme_wrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.theme_wrapper_title {
+  font-size: 90px;
+  font-weight: 700;
+  color: #74cfae;
+  font-family: Raleway;
+  padding-top: 250px;
+}
+
+.theme_wrapper_subtitle {
+  font-size: 30px;
+  color: #c0c0c0;
+  font-family: Lato;
+  padding: 20px 0 250px;
+}
+
+/* WHAT WE CAN DO? */
+.what_we_can_do {
+  background-color: #74cfae;
+}
+
+.contents_wrapper {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.text_wrapper {
+  width: 60%;
+  text-align: center;
+}
+
+.text_wrapper_title {
+  font-family: Raleway;
+  font-size: 24px;
+  color: #fff;
+  padding: 0 0 35px;
+}
+
+.text_wrapper_contents {
+  font-family: Lota;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/* OUR LATEST WORK */
+.works {
+  background-color: #f2f2f2;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.works_title {
+  font-family: Raleway;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  padding: 60px 0 40px;
+}
+
+.works_img_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px 100px;
+}
+
+.works_img {
+  opacity: 0.7;
+  transition: opacity 300ms;
+}
+
+.works_img:hover {
+  opacity: 1;
+}
+
+.works_text_button_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.works_text {
+  padding: 90px;
+  width: 660px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 300;
+  color: #333;
+  line-height: 1.5;
+}
+
+.works_button_email {
+  font-size: 12px;
+  padding: 14px 12px;
+  color: #fff;
+  background-color: #74cfae;
+  border: none;
+  transition: color 300ms;
+}
+
+.works_button_email:hover {
+  color: #333;
+}
+
+/* OUR SKILLS */
+.skills {
+  background-color: #4e4e4e;
+}
+
+.skills_wrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.skills_title {
+  font-family: Raleway;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  padding: 70px 0 50px;
+}
+
+.skills_contents_wrapper {
+  gap: 180px;
+  display: flex;
+  justify-content: center;
+}
+
+.skills_contents {
+  padding: 0 0 100px;
+}
+
+.skills_name {
+  padding-top: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+/* SNS */
+.sns {
+  background-color: #f2f2f2;
+}
+
+.sns_list {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.sns_icon {
+  font-size: 40px;
+  color: #74cfae;
+  padding: 30px 0;
+  width: 185px;
+  text-align: center;
+  transition: background-color 300ms;
+}
+
+.sns_icon:hover {
+  background-color: #fff;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #74cfae;
+}
+
+.footer_text {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 20px 0 25px;
+  text-align: end;
+}

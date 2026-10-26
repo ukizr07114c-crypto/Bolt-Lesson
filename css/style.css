@@ -293,25 +293,30 @@ a {
 /* タブレット画面 */
 @media (min-width: 767px) and (max-width: 1199px) {
   /* Header */
+  .header_wrapper {
+    width: 97%;
+  }
+
   .header_sp_menu {
     display: none;
   }
 
+  /* THEME */
+  .theme_wrapper {
+    width: 97%;
+  }
+
   /* WHAT WE CAN DO? */
   .what_we_can_do_wrapper {
-    padding-top: 50px;
+    width: 97%;
     display: flex;
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
-    box-sizing: border-box;
     flex-direction: column;
     align-items: center;
   }
 
   .what_we_can_do_contents {
     text-align: center;
-    width: 100%;
+    width: 97%;
   }
 
   .what_we_can_do_title {
@@ -324,10 +329,7 @@ a {
 
   /* OUR LATEST WORK */
   .works_wrapper {
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
-    box-sizing: border-box;
+    width: 97%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -359,6 +361,9 @@ a {
   }
 
   /* OUR SKILLS */
+  .skills_wrapper {
+    width: 97%;
+  }
   .skills_contents_wrapper {
     gap: 88px;
     display: flex;
@@ -370,6 +375,7 @@ a {
 
   /* SNS */
   .sns_list {
+    width: 97%;
     display: flex;
     justify-content: center;
   }
@@ -378,6 +384,10 @@ a {
 /* SP画面 */
 @media (max-width: 767px) {
   /* Header */
+  .header_wrapper {
+    width: 97%;
+  }
+
   .header_button {
     display: none;
   }
@@ -399,6 +409,9 @@ a {
   }
 
   /* THEME */
+  .theme_wrapper {
+    width: 97%;
+  }
   .theme_title {
     font-size: 80px;
     padding-top: 160px;
@@ -420,19 +433,16 @@ a {
 
   /* WHAT WE CAN DO? */
   .what_we_can_do_wrapper {
-    padding-top: 50px;
-    display: flex;
-    width: 100%;
+    width: 97%;
     max-width: 1100px;
-    margin: 0 auto;
-    box-sizing: border-box;
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .what_we_can_do_contents {
     text-align: center;
-    width: 100%;
+    width: 97%;
   }
 
   .what_we_can_do_title {
@@ -445,10 +455,7 @@ a {
 
   /* OUR LATEST WORK */
   .works_wrapper {
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
-    box-sizing: border-box;
+    width: 97%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -478,10 +485,14 @@ a {
 
   .works_text {
     padding: 0 0 40px;
-    width: 100%;
+    width: 97%;
   }
 
   /* OUR SKILLS */
+  .skills_wrapper {
+    width: 97%;
+  }
+
   .skills_contents_wrapper {
     gap: 88px;
     display: flex;
@@ -493,10 +504,7 @@ a {
 
   /* SNS */
   .sns_list {
-    width: 100%;
-    max-width: 1100px;
-    padding: 50px 0;
-    text-align: center;
+    width: 97%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -504,10 +512,10 @@ a {
 
   .sns_list a {
     display: block;
-    width: 100%;
+    width: 97%;
   }
 
   .sns_icon {
-    width: 100%;
+    width: 97%;
   }
 }

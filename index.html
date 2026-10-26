@@ -7,55 +7,120 @@
     <title>Bolt - Free Bootstrap 3 Theme</title>
     <meta name="description" content="This is my portfolio site." />
     <meta name="keyword" content="bolt, bootstrap, portfolio" />
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1
-"
-    />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/lib/all.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/3dba458130.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!-- ヘッダー -->
     <header class="header">
-      <div class="header-wrapper">
-        <p>⚡︎</p>
-        <button>Contact</button>
+      <div class="header_wrapper">
+        <p class="header_icon">
+          <i class="fa-solid fa-bolt-lightning"></i>
+        </p>
+        <a href="#" class="header_button">Contact</a>
+        <button class="header_sp_menu">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
       </div>
     </header>
 
     <main>
       <!-- Bolt Theme -->
-      <div>
-        <div></div>
+      <div class="theme">
+        <div class="theme_wrapper">
+          <h1 class="theme_title">Bolt <br class="theme_title_linebreak" />Theme</h1>
+          <h2 class="theme_subtitle">
+            FREE BOOTSTRAP<br class="theme_subtitle_linebreak" />
+            THEME
+          </h2>
+        </div>
       </div>
 
       <!-- WHAT WE CAN DO -->
-      <section>
-        <div></div>
+      <section class="what_we_can_do">
+        <div class="what_we_can_do_wrapper">
+          <img src="img/iphone.png" alt="" class="phone_img" width="208" height="295" />
+          <div class="what_we_can_do_contents">
+            <h2 class="what_we_can_do_title">WHAT WE CAN DO?</h2>
+            <p class="what_we_can_do_text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </div>
       </section>
 
       <!-- OUR LATEST WORK -->
-      <article>
-        <div></div>
+      <article class="works">
+        <div class="works_wrapper">
+          <h2 class="works_title">OUR LATEST WORK</h2>
+          <div class="works_img_wrapper">
+            <div class="works_img_wrapper_first">
+              <a href="#"><img src="img/01.jpg" alt="" class="works_img" width="300" height="300" /></a>
+              <a href="#"><img src="img/02.jpg" alt="" class="works_img" width="300" height="300" /></a>
+              <a href="#"><img src="img/03.jpg" alt="" class="works_img" width="300" height="300" /></a>
+            </div>
+            <div class="works_img_wrapper_second">
+              <a href="#"><img src="img/04.jpg" alt="" class="works_img" width="300" height="300" /></a>
+              <a href="#"><img src="img/05.jpg" alt="" class="works_img" width="300" height="300" /></a>
+              <a href="#"><img src="img/06.jpg" alt="" class="works_img" width="300" height="300" /></a>
+            </div>
+          </div>
+          <div class="works_text_button_wrapper">
+            <p class="works_text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever.
+            </p>
+            <a href="#" class="works_button_email">Email Me!</a>
+          </div>
+        </div>
       </article>
 
       <!-- OUR SKILLS -->
-      <section>
-        <div></div>
+      <section class="skills">
+        <div class="skills_wrapper">
+          <h2 class="skills_title">OUR SKILLS</h2>
+          <ul class="skills_contents_wrapper">
+            <li class="skills_contents">
+              <img src="img/circle_01.png" alt="" class="skills_img" width="122" height="122" />
+              <p class="skills_name">JavaScript</p>
+            </li>
+            <li class="skills_contents">
+              <img src="img/circle_02.png" alt="" class="skills_img" width="122" height="122" />
+              <p class="skills_name">Bootstrap</p>
+            </li>
+            <li class="skills_contents">
+              <img src="img/circle_03.png" alt="" class="skills_img" width="122" height="122" />
+              <p class="skills_name">WordPress</p>
+            </li>
+            <li class="skills_contents">
+              <img src="img/circle_04.png" alt="" class="skills_img" width="122" height="122" />
+              <p class="skills_name">Photoshop</p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- SNS -->
-      <nav>
-        <div></div>
+      <nav class="sns">
+        <div class="sns_list">
+          <a href="#"><i class="fa-brands fa-facebook-f sns_icon"></i></a>
+          <a href="#"><i class="fa-brands fa-dribbble sns_icon"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter sns_icon"></i></a>
+          <a href="#"><i class="fa-solid fa-envelope sns_icon"></i></a>
+        </div>
       </nav>
     </main>
 
     <!-- フッター -->
-    <footer>
-      <div></div>
+    <footer class="footer">
+      <p class="footer_text">Crafted with<i class="fa-solid fa-heart"></i>by Black Tie.co.</p>
     </footer>
   </body>
 </html>

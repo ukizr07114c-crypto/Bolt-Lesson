@@ -1,3 +1,16 @@
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* Header */
 .header {
   background-color: #fff;
@@ -19,12 +32,12 @@
   box-sizing: border-box;
 }
 
-.header_wrapper_icon {
+.header_icon {
   font-size: 40px;
   color: #333;
 }
 
-.header_wrapper_button {
+.header_button {
   font-size: 12px;
   padding: 14px 12px;
   color: #fff;
@@ -33,8 +46,12 @@
   transition: color 300ms;
 }
 
-.header_wrapper_button:hover {
+.header_button:hover {
   color: #333;
+}
+
+.header_sp_menu {
+  display: none;
 }
 
 /* THEME */
@@ -56,19 +73,25 @@
   box-sizing: border-box;
 }
 
-.theme_wrapper_title {
+.theme_title {
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
-  font-family: Raleway;
   padding-top: 250px;
 }
 
-.theme_wrapper_subtitle {
+.theme_title_linebreak {
+  display: none;
+}
+
+.theme_subtitle {
   font-size: 30px;
   color: #c0c0c0;
-  font-family: Lato;
   padding: 20px 0 250px;
+}
+
+.theme_subtitle_linebreak {
+  display: none;
 }
 
 /* WHAT WE CAN DO? */
@@ -78,7 +101,7 @@
   padding-right: 15px;
 }
 
-.contents_wrapper {
+.what_we_can_do_wrapper {
   padding-top: 50px;
   display: flex;
   justify-content: space-around;
@@ -88,20 +111,18 @@
   box-sizing: border-box;
 }
 
-.text_wrapper {
+.what_we_can_do_contents {
   width: 60%;
   text-align: center;
 }
 
-.text_wrapper_title {
-  font-family: Raleway;
+.what_we_can_do_title {
   font-size: 24px;
   color: #fff;
   padding: 0 0 35px;
 }
 
-.text_wrapper_contents {
-  font-family: Lota;
+.what_we_can_do_text {
   font-size: 20px;
   color: #fff;
   font-weight: 300;
@@ -123,7 +144,6 @@
 }
 
 .works_title {
-  font-family: Raleway;
   font-size: 24px;
   color: #333;
   text-align: center;
@@ -166,7 +186,6 @@
   padding: 90px;
   width: 660px;
   text-align: center;
-  font-family: Lato;
   font-size: 20px;
   font-weight: 300;
   color: #333;
@@ -201,7 +220,6 @@
 }
 
 .skills_title {
-  font-family: Raleway;
   font-size: 24px;
   color: #fff;
   text-align: center;
@@ -272,8 +290,15 @@
   box-sizing: border-box;
 }
 
+/* タブレット画面 */
 @media (min-width: 767px) and (max-width: 1199px) {
-  .contents_wrapper {
+  /* Header */
+  .header_sp_menu {
+    display: none;
+  }
+
+  /* WHAT WE CAN DO? */
+  .what_we_can_do_wrapper {
     padding-top: 50px;
     display: flex;
     width: 100%;
@@ -284,12 +309,28 @@
     align-items: center;
   }
 
-  .text_wrapper_title {
+  .what_we_can_do_contents {
+    text-align: center;
+    width: 100%;
+  }
+
+  .what_we_can_do_title {
     padding-top: 20px;
   }
 
-  .text_wrapper_contents {
+  .what_we_can_do_text {
     padding-bottom: 25px;
+  }
+
+  /* OUR LATEST WORK */
+  .works_wrapper {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .works_img_wrapper_first {
@@ -317,6 +358,7 @@
     padding: 0 0 40px;
   }
 
+  /* OUR SKILLS */
   .skills_contents_wrapper {
     gap: 88px;
     display: flex;
@@ -324,5 +366,148 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+  }
+
+  /* SNS */
+  .sns_list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* SP画面 */
+@media (max-width: 767px) {
+  /* Header */
+  .header_button {
+    display: none;
+  }
+
+  .header_sp_menu {
+    position: relative;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    width: 45px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .line {
+    border: 1px solid #c0c0c0;
+  }
+
+  /* THEME */
+  .theme_title {
+    font-size: 80px;
+    padding-top: 160px;
+    text-align: center;
+  }
+
+  .theme_title_linebreak {
+    display: block;
+  }
+
+  .theme_subtitle {
+    text-align: center;
+    padding: 20px 0 130px;
+  }
+
+  .theme_subtitle_linebreak {
+    display: block;
+  }
+
+  /* WHAT WE CAN DO? */
+  .what_we_can_do_wrapper {
+    padding-top: 50px;
+    display: flex;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .what_we_can_do_contents {
+    text-align: center;
+    width: 100%;
+  }
+
+  .what_we_can_do_title {
+    padding-top: 20px;
+  }
+
+  .what_we_can_do_text {
+    padding-bottom: 25px;
+  }
+
+  /* OUR LATEST WORK */
+  .works_wrapper {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .works_img_wrapper_first {
+    display: flex;
+    padding-bottom: 80px;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .works_img_wrapper_second {
+    display: flex;
+    padding-bottom: 80px;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .works_text_button_wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 70px;
+    width: 80%;
+  }
+
+  .works_text {
+    padding: 0 0 40px;
+    width: 100%;
+  }
+
+  /* OUR SKILLS */
+  .skills_contents_wrapper {
+    gap: 88px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* SNS */
+  .sns_list {
+    width: 100%;
+    max-width: 1100px;
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sns_list a {
+    display: block;
+    width: 100%;
+  }
+
+  .sns_icon {
+    width: 100%;
   }
 }
